@@ -8,6 +8,7 @@ header{
     background-size: auto;
     background-color: rgb(9, 101, 206);
     height: 180px;
+    
 }
 .titolo{
     font-size: 50px;
@@ -47,9 +48,10 @@ figure{
 .tab-head-blue{
     background-color: rgb(48, 134, 231);
     text-align: left;
+    border-spacing: 0px;
 }
 .tab-body-cyan{
-    background-color: rgb(159, 182, 207);
+    background-color: #c1eaf5;
     text-align: left;
 }
 .image-monitor{
@@ -66,4 +68,10 @@ figure{
 }
 .text-white{
     color: white;
+}
+.width-row{
+    width: 20%;
+}
+.table-border{
+    border-collapse: collapse;
 }
