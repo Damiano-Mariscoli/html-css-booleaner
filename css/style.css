@@ -9,43 +9,44 @@ header{
     background-color: rgb(9, 101, 206);
     height: 180px;
 }
-
-figure{
-    margin-left:0px;
-}
 .titolo{
     font-size: 50px;
     margin-bottom: 0px;
     margin-top: 20px;
 }
-.caption{
-    list-style-type: none;
-    margin:0 auto;
-    padding-left: 0;
+figure{
+    margin-left:0px;
 }
 .caption-titolo{
     margin:0 auto;
     color:rgba(0, 0, 0, 15);
    
 }
-.testo-colorato{
+.caption{
+    list-style-type: none;
+    margin:0 auto;
+    padding-left: 0;
+}
+
+.text-blue{
     color: rgb(15, 102, 160);
 }
 .text-grey{
     color: rgb(104, 104, 104);
 }
-.lista-main{
-    
+.list-main{
     list-style-position: inside;
     padding-left: 0px;  
 }
-.font-16{
-    font-size: 16px;
+.font-13{
+    font-size: 13px;
+}
+.font-18{
+    font-size: 18px;
 }
 .tab-head-blue{
     background-color: rgb(48, 134, 231);
     text-align: left;
-    color: white;
 }
 .tab-body-cyan{
     background-color: rgb(159, 182, 207);
@@ -62,4 +63,7 @@ figure{
     background-image: url('../img/graph.jpg');
     background-size: contain;
     background-repeat: no-repeat; 
+}
+.text-white{
+    color: white;
 }

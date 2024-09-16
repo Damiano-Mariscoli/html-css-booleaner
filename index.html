@@ -8,29 +8,33 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="./img/logo.svg" alt="">
+        <!-- header riguardante solamente il logo con sfondo pattern -->
+        <img class="logo" src="./img/logo.svg" alt=""> 
     </header>
     <section>
+        <!-- titolo con caption -->
         <h1 class="titolo">
             Internet deve essere al servizio del "bene pubblico": 
             il manifesto di Tim Berners-Lee
         </h1>
-        <p class="caption-titolo font-16"><span class="text-grey">Scritto da </span><span class="testo-colorato">The Booleaner</span></p>
-        <p class="caption-titolo"><span class="text-grey">il 10/10/2020</span></p>
+        <p class="caption-titolo font-16"><span class="text-grey">Scritto da </span><span class="text-blue">The Booleaner</span></p>
+        <p class="caption-titolo"><span class="text-grey font-13">il 10/10/2020</span></p>
     </section>
     <figure>
+        <!-- img principali con caption -->
         <img src="./img/tim-1.jpg" alt="">
         <img src="./img/tim-2.jpg" alt="">
             <figcaption>
-                <ol class="caption">
+                <ol class="caption font-13">
                     <li>1st Photo: Jhon S. and James L. Knight Foundation, by Scott Henrichsen</li>
                     <li>2nd Photo: Wikimedia, by Paul Clarke</li>
                 </ol>   
             </figcaption>
     </figure>
     <main>
-        <section>
-                <p>
+        <div>
+            <!-- primo paragrafo -->
+                <p class="font-18">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Facere eaque beatae, officia ullam obcaecati quod porro repellendus rem 
                 rerum mollitia voluptatem consequatur delectus voluptas alias laborum assumenda 
@@ -42,15 +46,17 @@
                 repudiandae similique aspernatur minima ipsum culpa. Et nam ullam voluptatem officia 
                 delectus a tempore esse similique nostrum! Iste, aspernatur! Est?
                 </p>
-                <ul class="lista-main">
+                <!-- lista -->
+                <ul class="list-main font-18">
                     <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, obcaecati vitae ab quisquam officia omnis distinctio esse sint optio consequuntur!</li>
                     <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum magnam consequuntur nobis eligendi sequi accusantium!</li>
                     <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et libero ducimus obcaecati, quasi non culpa fugiat natus tempore!</li>
                 </ul>
-        </section>
-        <section>
-            <table>
-                <thead class="tab-head-blue">
+            </div>
+        <div>
+            <!-- tabella -->
+            <table class="font-18">
+                <thead class="tab-head-blue text-white">
                     <tr >
                         <th>Lorem ipsum dolor</th>
                         <th>Lorem ipsum dolor</th>
@@ -93,8 +99,9 @@
                     </tr>
                 </tbody>
             </table>
-        </section>
-        <p>
+        </div>
+        <p class="font-18">
+            <!-- secondo paragrafo -->
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium obcaecati 
             consequatur ex dolorem veritatis iure quisquam aspernatur omnis nihil facilis! Molestiae 
             porro officiis voluptate error ex unde, consequatur quia voluptatum ipsa, nisi consequuntur 
@@ -109,9 +116,10 @@
         </p>
     </main>
     <footer>
+        <!-- footer con le ultime 2 scritte su img settate come bg -->
         <h2 class="text-grey">Potrebbero Interessarti</h2>
-        <h2 class="image-monitor">Lorem, ipsum dolor.</h2>
-        <h2 class="image-graph">Lorem, ipsum dolor.</h2>
+        <h2 class="image-monitor text-white">Lorem, ipsum dolor.</h2>
+        <h2 class="image-graph text-white">Lorem, ipsum dolor.</h2>
     </footer>
 </body>
 </html>
