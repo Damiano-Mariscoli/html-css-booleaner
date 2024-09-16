@@ -1,11 +1,31 @@
 .logo {
-    height: 100px;
+    height: 80px;
     position: relative;
-    top: 90px;
+    top: 85px;
 }
 header{
     background-image: url(../img/pattern.png);
     background-size: auto;
     background-color: rgb(9, 101, 206);
     height: 180px;
+}
+figure{
+    margin-left:0px;
+}
+.titolo{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.caption{
+    list-style-type: none;
+    margin:0 auto;
+    padding-left: 0;
+}
+.caption-titolo{
+    margin:0px;
+    color:rgba(0, 0, 0, 15);
+   
+}
+.testo-colorato{
+    color: blue;
 }
