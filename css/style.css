@@ -31,7 +31,7 @@ figure{
 .testo-colorato{
     color: rgb(15, 102, 160);
 }
-.grigio{
+.text-grey{
     color: rgb(104, 104, 104);
 }
 .lista-main{
@@ -42,12 +42,24 @@ figure{
 .font-16{
     font-size: 16px;
 }
-.tab-head{
-    tab-size: 100;
+.tab-head-blue{
     background-color: rgb(48, 134, 231);
     text-align: left;
-    
+    color: white;
 }
-.short-tab{
-    tab-size: 196;
+.tab-body-cyan{
+    background-color: rgb(159, 182, 207);
+    text-align: left;
+}
+.image-monitor{
+    height:200px;
+    background-image: url('../img/monitor.jpg');
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+.image-graph{
+    height: 200px;
+    background-image: url('../img/graph.jpg');
+    background-size: contain;
+    background-repeat: no-repeat; 
 }
