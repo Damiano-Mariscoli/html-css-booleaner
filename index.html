@@ -5,22 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="no-margin">
     <header>
         <!-- header riguardante solamente il logo con sfondo pattern -->
         <img class="logo" src="./img/logo.svg" alt=""> 
     </header>
-    <section>
+    <section class="classic-border">
         <!-- titolo con caption -->
         <h1 class="titolo">
             Internet deve essere al servizio del "bene pubblico": 
             il manifesto di Tim Berners-Lee
         </h1>
         <p class="caption-titolo font-16"><span class="text-grey">Scritto da </span><span class="text-blue">The Booleaner</span></p>
-        <p class="caption-titolo"><span class="text-grey font-13">il 10/10/2020</span></p>
+        <p class="caption-titolo text-grey font-13">10/10/2020</p>
     </section>
-    <figure>
+    <figure class="classic-border">
         <!-- img principali con caption -->
         <img src="./img/tim-1.jpg" alt="">
         <img src="./img/tim-2.jpg" alt="">
@@ -31,7 +34,7 @@
                 </ol>   
             </figcaption>
     </figure>
-    <main>
+    <main class="classic-border">
         <div>
             <!-- primo paragrafo -->
                 <p class="font-18">
@@ -58,9 +61,9 @@
             <table class="table-border font-18">
                 <thead class="tab-head-blue text-white">
                     <tr >
-                        <th class="width-row">Lorem ipsum dolor</th>
-                        <th class="width-row">Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
+                        <th class="width-row-small">Lorem ipsum dolor</th>
+                        <th class="width-row-small">Lorem ipsum dolor</th>
+                        <th class="width-row-big">Lorem ipsum dolor</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -115,11 +118,11 @@
             veritatis facilis et! Mollitia, dolore.
         </p>
     </main>
-    <footer>
+    <footer class="classic-border">
         <!-- footer con le ultime 2 scritte su img settate come bg -->
         <h2 class="text-grey">Potrebbero Interessarti</h2>
-        <h2 class="image-monitor text-white">Lorem, ipsum dolor.</h2>
-        <h2 class="image-graph text-white">Lorem, ipsum dolor.</h2>
+        <h2 style="background-image: url(./img/monitor.jpg);" class="image-ads text-white">Lorem, ipsum dolor.</h2>
+        <h2 style="background-image: url(./img/graph.jpg)" class="image-ads text-white">Lorem, ipsum dolor.</h2>
     </footer>
 </body>
 </html>
